@@ -1,32 +1,43 @@
-# 226. Invert Binary Tree
+<h1 align="center">226. Invert Binary Tree</h1>
 
-**Link**: [LeetCode - Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+<p align="center">
+  <img src="https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Solved-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C++/Python-blue?style=for-the-badge" />
+</p>
 
 ---
 
-## 🧠 Problem Statement
+## 📘 Problem
 
-> Given the root of a binary tree, invert the tree, and return its root.
-
+🔗 [Invert Binary Tree - LeetCode](https://leetcode.com/problems/invert-binary-tree/)  
+> Given the root of a binary tree, invert the tree, and return its root.  
 Inverting means swapping the left and right children of **every node** in the tree.
 
 ---
 
-## 🔍 Approach
+## 💡 Approach
 
-We use **recursion (Depth-First Search)** to traverse the binary tree. At every node:
+- Use **recursion** to traverse the binary tree.
+- At each node:
+  - Swap the left and right subtrees.
+  - Recurse on both children.
+- Return the modified root.
 
-1. Swap the left and right child pointers.
-2. Recursively apply the same operation on the left and right subtrees.
-3. Return the root after inversion.
-
-This guarantees that every node is visited exactly once.
+This approach ensures every node is visited **once**, making it optimal.
 
 ---
 
-## ✅ Code (C++)
+## ✅ Code
+
+### 🔹 C++
 
 ```cpp
+// 📌 Problem: https://leetcode.com/problems/invert-binary-tree/
+// ✅ Status: Solved
+// 🧠 Approach: Recursive DFS with left-right subtree swap
+// ⌛ TC: O(n), SC: O(h)
+
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -43,6 +54,7 @@ public:
     }
 };
 ```
+### 🔹 Python
 ```py
 class Solution:
     def invertTree(self, root):
