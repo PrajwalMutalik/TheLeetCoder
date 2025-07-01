@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Solved-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C++/Python-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C++-blue?style=for-the-badge" />
 </p>
 
 ---
