@@ -1,6 +1,6 @@
 <h1 align="center">🧠 LeetCode Daily Grind</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Problems%20Solved-02-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-03-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-C++/Python-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Updated-Daily-success?style=for-the-badge" />
 </p>
