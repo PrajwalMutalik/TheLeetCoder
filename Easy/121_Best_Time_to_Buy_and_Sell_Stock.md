@@ -31,7 +31,7 @@
 // 🧠 Approach: Track min price so far, update max profit
 // ⌛ TC: O(n), SC: O(1)
  
-class Solution {
+class Solution { 
 public:
     int maxProfit(vector<int>& prices) {
         int buy = prices[0];
