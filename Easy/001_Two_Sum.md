@@ -26,7 +26,7 @@
 ---
 
 ## ✅ Code
-
+ 
 ### 🔹 C++ — Brute Force
 
 ```cpp

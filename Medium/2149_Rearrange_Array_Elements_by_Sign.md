@@ -14,7 +14,7 @@
 > Rearrange the array so that positives and negatives alternate. The first element should be positive.
 
 ---
-
+ 
 ## 💡 Approach
 
 - Split the array into two vectors: `positive` and `negative`.
