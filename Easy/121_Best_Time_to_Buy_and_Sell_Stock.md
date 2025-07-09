@@ -32,7 +32,7 @@
 // ⌛ TC: O(n), SC: O(1)
  
 class Solution { 
-public:
+public: 
     int maxProfit(vector<int>& prices) {
         int buy = prices[0];
         int profit = 0;

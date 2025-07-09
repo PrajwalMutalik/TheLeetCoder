@@ -8,7 +8,7 @@
 
 ---
 
-## 📘 Problem 
+## 📘 Problem  
 
 🔗 [LeetCode - Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)  
 > Rearrange the array so that positives and negatives alternate. The first element should be positive.

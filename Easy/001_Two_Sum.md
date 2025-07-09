@@ -24,7 +24,7 @@
 - Guaranteed one solution, so return is safe once found.
 
 ---
-
+ 
 ## ✅ Code
  
 ### 🔹 C++ — Brute Force

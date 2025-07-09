@@ -36,7 +36,7 @@
 // ⌛ TC: O(n), SC: O(1)
   
 class Solution {
-public:
+public: 
     int maxSubArray(vector<int>& nums) {
         int bag = 0;
         int ans = INT_MIN;
