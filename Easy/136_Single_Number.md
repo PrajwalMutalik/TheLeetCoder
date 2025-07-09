@@ -53,7 +53,10 @@ public:
         return res;
     }
 };
+```
+### 🔹 C++ — Approach 2 (XOR)
 
+```cpp
 // 📌 Problem: https://leetcode.com/problems/single-number/
 // ✅ Status: Solved
 // 🧠 Approach: XOR cancels duplicates, leaves single
