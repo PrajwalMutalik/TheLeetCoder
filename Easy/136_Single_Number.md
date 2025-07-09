@@ -53,3 +53,19 @@ public:
         return res;
     }
 };
+
+// 📌 Problem: https://leetcode.com/problems/single-number/
+// ✅ Status: Solved
+// 🧠 Approach: XOR cancels duplicates, leaves single
+// ⌛ TC: O(n), SC: O(1)
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int res = 0;
+        for (auto &i : nums) {
+            res ^= i;
+        }
+        return res;
+    }
+};
